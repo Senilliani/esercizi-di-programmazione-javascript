@@ -11,3 +11,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var Year = 2020;
+var Birth = 1983;
+var Future = 100;
+
+var Age = Year - Birth;
+var Missing = Future - Age;
+
+console.log(`La persona tiene ${Age} años y dentro de ${Missing} años llegará a los 100.`);
